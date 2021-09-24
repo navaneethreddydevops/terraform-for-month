@@ -9,7 +9,7 @@ on:
 
 jobs:
   terraform:
-    runs-on: [self-hosted]
+    runs-on: self-hosted
     name: "Terraform"
     runs-on: ubuntu-latest
     environment: production
